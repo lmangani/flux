@@ -2,7 +2,7 @@
 
 Use this package to interact with ClickHouse HTTP APIs.
 
-## logql.query_range
+## clickhouse.query
 
 `clickhouse.query` executes a POST query against a ClickHouse HTTP Interface. 
 

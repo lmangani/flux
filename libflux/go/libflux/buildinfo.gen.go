@@ -95,6 +95,8 @@ var sourceHashes = map[string]string{
 	"stdlib/contrib/qxip/clickhouse/clickhouse.flux":                                              "8ad86d9c3c7a4271178d5e2fa9bb850856363cf470d92c3f5010b6de9e770db1",
 	"stdlib/contrib/qxip/hash/hash.flux":                                                          "abf7de64cbecd3f1019058be5240ba7289355df80b1771ca253f2dca857b9b1f",
 	"stdlib/contrib/qxip/logql/logql.flux":                                                        "f855e5a58efd4332c63bbdbb41efc9522c97722c44202f4b26c5226c89e7a646",
+	"stdlib/contrib/qxip/secrets/secrets.flux":                                                    "d5a903c964a6319bff064a4eed5ac2fb2148356b77649bd0d7da6448e9de61d6",
+	"stdlib/contrib/qxip/secrets/secrets_test.flux":                                               "ccf67fcdc25b53785650ea22aef953e1cf0ce8a5f6af40d97bf0a00410382d75",
 	"stdlib/contrib/rhajek/bigpanda/bigpanda.flux":                                                "0f4d43a7ae08f0ce5e00a746082dbdae06008bcd69cb00b52f0b4f1bb10b7323",
 	"stdlib/contrib/sranka/opsgenie/opsgenie.flux":                                                "5313b78a30ffb01c606397c9bea954bdd4ca06c44663268bab1e0f706fc6d2c5",
 	"stdlib/contrib/sranka/sensu/sensu.flux":                                                      "c3aff3caa234f7f1991f0d37cc40abaee7ad493fbcd7914a0009ac7d66ce0325",

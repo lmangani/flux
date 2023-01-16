@@ -2,8 +2,8 @@ package secrets_test
 
 import (
 	"context"
-	"testing"
 	"syscall"
+	"testing"
 
 	"github.com/influxdata/flux/dependencies/dependenciestest"
 	"github.com/influxdata/flux/dependencies/secret"

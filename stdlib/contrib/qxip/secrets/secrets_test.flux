@@ -28,5 +28,11 @@ t_get_secret = (table=<-) =>
         |> set(key: "token", value: token)
         |> drop(columns: ["_start", "_stop"])
 
-test _get_secret = () =>
-    ({input: testing.loadStorage(csv: inData), want: testing.loadMem(csv: outData), fn: t_get_secret})
+test
+
+_get_secret = () =>
+    ({
+        input: testing.loadStorage(csv: inData),
+        want: testing.loadMem(csv: outData),
+        fn: t_get_secret,
+    })
